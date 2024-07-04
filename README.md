@@ -2,7 +2,6 @@
 
 ### To run
 - change directory to app/ 
-- run 
 - run: 
   - `python -m venv env`
   - activate env
