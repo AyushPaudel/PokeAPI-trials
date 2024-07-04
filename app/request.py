@@ -33,7 +33,8 @@ async def save_in_db(new_pokemon):
 
 
 async def main():
-    url = "https://pokeapi.co/api/v2/pokemon?limit=151"
+    # url = "https://pokeapi.co/api/v2/pokemon?limit=151"
+    url ="https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0"
     r = requests.get(url=url)
     b = r.json()['results']
     for individual in b:
